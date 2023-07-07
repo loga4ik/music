@@ -1,0 +1,61 @@
+input{
+    background-color: white;
+}
+.title{
+    position: relative;
+    text-align: center;
+}
+.request--form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.request--form__input{
+    width: 30%;
+    padding: 15px 40px;
+    margin: 10px 0;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 150%;    
+}
+.request--form__button{
+    /* padding: 0%; */
+    width: auto;
+    margin-top: 50px;
+    /* padding: ; */
+}
+.request--form__description{
+    padding: 30px 40px;
+}
+.music-record1{
+    z-index: auto;
+    position: absolute;
+    top: 90px;
+    right: 0;
+    height: 700px;
+    width: 443px;
+    height: calc(700px*1.1);
+    width: calc(443px*1.1);
+    background-size: cover;
+    background-image: url("../../../../../public/img/MusicRecord.png");
+}
+.music-record2{
+    z-index: auto;
+    position: absolute;
+    top: 150px;
+    left: 0;
+    margin-left: -70px;
+    /* transform: rotate(180deg); */
+    height: 700px;
+    width: 443px;
+    height: calc(500px*1.1);
+    width: calc(500px*1.1);
+    background-size:contain;
+    background-image: url("../../../../../public/img/MusicRecord.png");
+}
+.relative{
+    position: relative;
+}
+.z-index{
+    z-index: 1;
+}

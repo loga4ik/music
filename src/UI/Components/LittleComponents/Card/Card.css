@@ -1,0 +1,55 @@
+.CardList {
+  color: white;
+}
+.ProductCard {
+  font-family: RubikMonoOne-Regular;
+  display: flex;
+  justify-content: center;
+  /* height: 387px; */
+  height: calc(387px * 1.25);
+  width: calc(280px * 1.25);
+  /* padding: 40px 40px 400px 40px; */
+  background-image: url(../../../../../public/img/CardBackground.svg);
+  background-size: cover;
+  /* margin-bottom: 100px; */
+}
+ul {
+  padding: 0px;
+  /* background-color: rgba(145, 145, 145, 0.544); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  font-size: 20px;
+}
+li {
+  padding: 8px 0;
+}
+.Card__image {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  border-style: inset;
+  border-color: white;
+  border-width: 35px;
+  height: calc(178px * 1.25);
+  width: calc(178px * 1.25);
+  background-size: contain;
+}
+.image0 {
+  background-image: url(../../../../../public/img/alboms/albomImage1.png);
+}
+.image1 {
+  background-image: url(../../../../../public/img/alboms/albomImage2.png);
+}
+.image2 {
+  background-image: url(../../../../../public/img/alboms/albomImage1.png);
+}
+.image3 {
+  background-image: url(../../../../../public/img/alboms/albomImage2.png);
+}
+.image4 {
+  background-image: url(../../../../../public/img/alboms/albomImage1.png);
+}
+.image5 {
+  background-image: url(../../../../../public/img/alboms/albomImage2.png);
+}

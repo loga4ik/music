@@ -1,0 +1,78 @@
+.block {
+  /* z-index: auto; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* background-color: black; */
+  color: white;
+  /* padding: 0 150px; */
+  /* padding-left: 100px;
+  padding-right: calc(10vw + 100px); */
+}
+.OurJob {
+  z-index: auto;
+  display: grid;
+  margin: 0 150px;
+  flex-direction: row;
+  /* width: 1800px; */
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  /* column-gap: 50px; */
+}
+.OurJob__block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  margin-bottom: 5vw;
+}
+.Rectangle {
+  background-color: white;
+  position: absolute;
+  left: 0;
+  margin-top: 200px;
+  /* margin-left: -30px; */
+  transform: rotate(9deg);
+  /* z-index: auto; */
+  /* border-radius: 110px; */
+  border-bottom-right-radius: 110px;
+  border-top-right-radius: 20px;
+  height: 550px;
+  width: 40vw;
+}
+.block__subtitle {
+  font-family: Roboto-Medium;
+  text-align: center;
+  color: rgba(220, 220, 220, 1);
+  font-size: 150%;
+}
+.block__title {
+  text-align: center;
+  font-size: 200%;
+  margin: 40px 0;
+  font-family: RubikMonoOne-Regular;
+}
+.block__front {
+  z-index: 2;
+  color: #0f0f0f;
+}
+.OurJob__image1 {
+  background-image: url(../../../../../public/img/OurJob/man.svg);
+}
+.OurJob__image2 {
+  background-image: url(../../../../../public/img/OurJob/Box.svg);
+}
+.OurJob__image3 {
+  background-image: url(../../../../../public/img/OurJob/Pin.svg);
+}
+.block__image {
+  height: 145px;
+  width: 145px;
+  background-size: cover;
+}
+.back {
+  background-color: black;
+}
+.title {
+  font-family: RubikMonoOne-Regular;
+}
