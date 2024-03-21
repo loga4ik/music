@@ -57,13 +57,13 @@
   color: #0f0f0f;
 }
 .OurJob__image1 {
-  background-image: url(../../../../../public/img/OurJob/man.svg);
+  background-image: url(/public/img/OurJob/man.svg);
 }
 .OurJob__image2 {
-  background-image: url(../../../../../public/img/OurJob/Box.svg);
+  background-image: url(/public/img/OurJob/Box.svg);
 }
 .OurJob__image3 {
-  background-image: url(../../../../../public/img/OurJob/Pin.svg);
+  background-image: url(/public/img/OurJob/Pin.svg);
 }
 .block__image {
   height: 145px;

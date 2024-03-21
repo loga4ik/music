@@ -16,9 +16,6 @@ export const Advertising = () => {
             <Button text="в каталог" />
           </div>
         </div>
-        {/* <div className="img--side">
-        <div className="image"></div>
-      </div> */}
       </div>
     </div>
   );

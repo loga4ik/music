@@ -29,7 +29,6 @@ export const RequestForm = () => {
       text: message,
     });
     chengeActive();
-    alert(message);
   };
   return (
     <div className="relative">

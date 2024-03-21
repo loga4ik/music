@@ -16,38 +16,38 @@
   background-repeat: no-repeat;
 }
 .label1 {
-  background-image: url("../../../../../public/img/sponsors/epiphone.jpg");
+  background-image: url("/public/img/sponsors/epiphone.jpg");
 }
 .label2 {
-  background-image: url("../../../../../public/img/sponsors/fender.jpg");
+  background-image: url("/public/img/sponsors/fender.jpg");
 }
 .label3 {
-  background-image: url("../../../../../public/img/sponsors/ibanez.jpg");
+  background-image: url("/public/img/sponsors/ibanez.jpg");
 }
 .label4 {
-  background-image: url("../../../../../public/img/sponsors/gibson.jpg");
+  background-image: url("/public/img/sponsors/gibson.jpg");
 }
 .label5 {
-  background-image: url("../../../../../public/img/sponsors/yamaha.jpg");
+  background-image: url("/public/img/sponsors/yamaha.jpg");
 }
 .label6 {
-  background-image: url("../../../../../public/img/sponsors/jackson.jpg");
+  background-image: url("/public/img/sponsors/jackson.jpg");
 }
 .label7 {
-  background-image: url("../../../../../public/img/sponsors/pioneer.jpg");
+  background-image: url("/public/img/sponsors/pioneer.jpg");
 }
 .label8 {
-  background-image: url("../../../../../public/img/sponsors/roland.jpg");
+  background-image: url("/public/img/sponsors/roland.jpg");
 }
 .label9 {
-  background-image: url("../../../../../public/img/sponsors/schecter.jpg");
+  background-image: url("/public/img/sponsors/schecter.jpg");
 }
 .label10 {
-  background-image: url("../../../../../public/img/sponsors/sennheizer.jpg");
+  background-image: url("/public/img/sponsors/sennheizer.jpg");
 }
 .label11 {
-  background-image: url("../../../../../public/img/sponsors/vox.svg");
+  background-image: url("/public/img/sponsors/vox.svg");
 }
 .label12 {
-  background-image: url("../../../../../public/img/sponsors/marshall.jpg");
+  background-image: url("/public/img/sponsors/marshall.jpg");
 }

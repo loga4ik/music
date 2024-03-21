@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "./Catalog.css";
 import { Card } from "../../LittleComponents/Card/Card";
 export const Catalog = () => {
@@ -11,7 +11,8 @@ export const Catalog = () => {
     "card4",
     "card5",
   ]);
-  const tempArr = ["card0", "card1", "card2", "card3", "card4", "card5"];
+
+  let tempArr = ["card0", "card1", "card2", "card3", "card4", "card5"];
   const leftClickHandler = () => {
     for (let index = 0; index < counter; index++) {
       let tempVariable = tempArr.shift();
@@ -21,13 +22,18 @@ export const Catalog = () => {
     setArray(tempArr);
   };
   const rightClickHandler = () => {
-    for (let index = 0; index < counter; index++) {
-      let tempVariable = tempArr.shift();
-      if (tempVariable !== undefined) tempArr.push(tempVariable);
-      setCounter(counter - 1);
+    console.log(123);
+
+    let tempVariable = arrayOfCardsClases1.shift();
+    tempArr = arrayOfCardsClases1;
+    if (tempVariable) {
+      tempArr.push(tempVariable);
     }
+    console.log(tempArr);
     setArray(tempArr);
+    setCounter(counter + 1);
   };
+
   return (
     <div className="catalog">
       <h2 className="title">каталог</h2>

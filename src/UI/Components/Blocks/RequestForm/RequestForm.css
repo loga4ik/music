@@ -37,7 +37,7 @@ input{
     height: calc(700px*1.1);
     width: calc(443px*1.1);
     background-size: cover;
-    background-image: url("../../../../../public/img/MusicRecord.png");
+    background-image: url("/public/img/MusicRecord.png");
 }
 .music-record2{
     z-index: auto;
@@ -51,7 +51,7 @@ input{
     height: calc(500px*1.1);
     width: calc(500px*1.1);
     background-size:contain;
-    background-image: url("../../../../../public/img/MusicRecord.png");
+    background-image: url("/public/img/MusicRecord.png");
 }
 .relative{
     position: relative;

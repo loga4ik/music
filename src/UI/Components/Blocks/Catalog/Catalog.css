@@ -52,7 +52,7 @@
   height: calc(23px * 1.25);
   width: calc(14px * 1.25);
   background-size: cover;
-  background-image: url(../../../../../public/img/Arrow.svg);
+  background-image: url(/public/img/Arrow.svg);
 }
 
 .arrowRight {

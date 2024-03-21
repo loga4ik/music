@@ -1,8 +1,8 @@
 .special--button {
   background-color: rgba(82, 82, 82, 0.482);
   border-radius: 50px;
-  padding: 12px 25px;
-  font-size: 20px;
+  padding: 0.5vw 0.89vw;
+  font-size: 0.9vw;
   font-family: "Rubik Mono Onemonospace";
   color: white;
   border-width: 2px;
